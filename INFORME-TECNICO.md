@@ -32,7 +32,7 @@ En este proyecto los nodos guardan un enlace `Padre`. Eso permite subir por el �
 
 La búsqueda y la inserción en un AVL balanceado tardan **O(log n)** en función de la cantidad de estudiantes.
 
-## 5. Promedio ponderado (sin recursividad)
+## 5. Promedio ponderado 
 
 En una lista de materias se recorre cada nodo usando `while` y se acumulan dos valores:
 
@@ -51,12 +51,5 @@ Este cálculo tarda **O(m)**, donde `m` es la cantidad de materias del semestre.
 
 Por ahora, los datos se pierden al cerrar el programa y se usan como máximo 30 materias en el catálogo. Una mejora futura sería guardar los registros en archivos o una base de datos. También se podría controlar que cada semestre corresponda a fechas y gestionar usuarios.
 
-## 7. Guía de defensa (máximo 5 minutos)
 
-- **0:00 a 0:30:** cuál es el problema académico que resuelve.
-- **0:30 a 1:00:** qué registra el sistema y por qué se hizo en consola.
-- **1:00 a 3:30:** mostrar un registro, búsqueda, cola de inscripciones, notas y promedio.
-- **3:30 a 4:30:** señalar el AVL, la lista simple, la lista doble, la pila y la cola en el código.
-- **4:30 a 5:00:** explicar que una institución podría adaptarlo para seguir el avance de estudiantes.
 
-**Importante:** el PDF original menciona la recursividad como criterio. El programa no usa recursividad; revisar con el docente si esta adaptación está aceptada.
